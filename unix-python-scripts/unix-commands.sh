@@ -17,7 +17,29 @@
 # 26626 -
 # 27309 +
 
-(qb25) cmdb@QuantBio-21 GTEx % cut -f 6 GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt | sort | uniq -c | sort | tail -n 3
-# 2014 Skin
-# 3326 Brain
-# 3480 Blood
+(qb25) cmdb@QuantBio-21 unix-python-scripts % cut -f 7 GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt | sort | uniq -c | sort | tail -n 3
+# 867 Lung
+# 1132 Muscle - Skeletal
+# 3288 Whole Blood
+
+(qb25) cmdb@QuantBio-21 unix-python-scripts % cut -f 12 GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt | sort | uniq -c
+#  376 
+#  117 DNA Extraction from Paxgene-derived Lysate Plate Based
+#   87 DNA Isolation from Tissue via QIAgen Spin Column
+#   30 DNA Isolation of Compromised Blood with Autopure
+#   40 DNA isolation_Whole Blood_QIAGEN Puregene (Autopure)
+# 2285 DNA isolation_Whole Blood_QIAGEN Puregene (Manual)
+# 11760 RNA Extraction from Paxgene-derived Lysate Plate Based
+#  933 RNA isolation_PAXgene Blood RNA (Manual)
+# 6387 RNA isolation_PAXgene Tissue miRNA
+#  936 RNA isolation_Trizol Manual (Cell Pellet)
+#    1 SMNABTCHT
+
+(qb25) cmdb@QuantBio-21 unix-python-scripts % echo $((11760 + 933 + 6387 + 936))
+# 20016
+
+(qb25) cmdb@QuantBio-21 unix-python-scripts % wc -l GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
+# 22952 GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
+
+(qb25) cmdb@QuantBio-21 unix-python-scripts % echo $((22952 - 20016))
+# 2936
