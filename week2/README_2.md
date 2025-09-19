@@ -1,0 +1,1 @@
+Our visualization of A01_01-06 aligns with genotype data from BYxRM, as samples 1, 3, and 4 share the "R" haplotype, and on IGV these three samples display similar haplotypes as expected. Similarly, samples 2, 5, and 6 share the "B" haplotype, and these similarities are observed in its haplotype on IGV.
