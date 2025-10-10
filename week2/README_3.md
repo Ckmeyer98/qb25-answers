@@ -1,0 +1,1 @@
+(qb25) cmdb@QuantBio-21 longreads % minimap2 -a -x map-ont sacCer3.fa ERR8562476.fastq > longreads.sam
