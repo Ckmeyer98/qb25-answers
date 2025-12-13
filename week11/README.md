@@ -7,6 +7,7 @@ Answer:
 1,000,000 * 3 (coverage) = 3,000,000
 
 3,000,000 / 100 = 30,000 reads
+
 1.4: In your simulation, how much of the genome has not been sequenced (has 0x coverage)?
 
 Answer: Based on the histogram, it looks like about 5% of the genome has not been sequenced.
