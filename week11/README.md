@@ -1,11 +1,12 @@
 1.1: How many 100bp reads are needed to sequence a 1Mbp genome to 3x coverage?
 
-Answer: 1 MBP = 1,000,000 bp
+Answer: 
 
-        1,000,000 * 3 (coverage) = 3,000,000
+1 MBP = 1,000,000 bp
 
-        3,000,000 / 100 = 30,000 reads
+1,000,000 * 3 (coverage) = 3,000,000
 
+3,000,000 / 100 = 30,000 reads
 1.4: In your simulation, how much of the genome has not been sequenced (has 0x coverage)?
 
 Answer: Based on the histogram, it looks like about 5% of the genome has not been sequenced.
